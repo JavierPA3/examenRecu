@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+       /** 
+    Author: Postigo Arévalo Javier
+    */
     let nuevaPagina = window.open('', '_blank', 'height=1000, width=750');
         
     nuevaPagina.document.write(`
