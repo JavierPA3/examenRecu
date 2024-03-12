@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+       /** 
+    Author: Postigo Arévalo Javier
+    */
     localStorage.getItem("visitCounter") ?? localStorage.setItem("visitCounter", 0);
     localStorage.setItem("visitCounter", new Number(localStorage.getItem("visitCounter"))+1);
 
