@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+    /** 
+    Author: Postigo Arévalo Javier
+    */
     const generar = () => {
         const generarArrayAleatorio = length => Array.from({ length }, () => Math.floor(Math.random() * 11));
         const obtenerNumerosPares = array => array.filter(num => num % 2 === 0);
